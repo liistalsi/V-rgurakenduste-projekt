@@ -1,0 +1,90 @@
+#blokk {
+
+	height: 100px;
+	width: 100px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+
+}
+
+.ring {
+
+	position: absolute;
+	border-radius: 50%;
+
+}
+
+#blokk div:nth-child(1) {
+
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	border: 1px solid blue;
+	left: 0;
+	top: 0;
+
+}
+
+#blokk div:nth-child(2) {
+
+	height: 90%;
+	width: 90%;
+	background-color: red;
+	border: 1px solid green;
+	left: 5px;
+	top: 5px;
+
+}
+
+#blokk div:nth-child(3) {
+
+	height: 80%;
+	width: 80%;
+	background-color: white;
+	border: 1px solid blue;
+	left: 10px;
+	top: 10px;
+
+}
+
+#blokk div:nth-child(4) {
+
+	height: 70%;
+	width: 70%;
+	background-color: red;
+	border: 1px solid green;
+	left: 15px;
+	top: 15px;
+
+}
+
+#blokk div:nth-child(5) {
+
+	height: 60%;
+	width: 60%;
+	background-color: white;
+	border: 1px solid blue;
+	left: 20px;
+	top: 20px;
+
+}
+
+#blokk div:nth-child(6) {
+
+	height: 50%;
+	width: 50%;
+	background-color: red;
+	border: 1px solid green;
+	left: 25px;
+	top: 25px;
+
+}
+
+img {
+
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}

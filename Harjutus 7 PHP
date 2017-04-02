@@ -1,0 +1,13 @@
+<?php
+ 
+ $tekst = "Life is like riding a bicycle. To keep your balance, you must keep moving.";
+ $tekstipikkus = strlen($tekst);
+
+ /*
+ * Prindib teksti tagurpidi.
+ */
+ for($i = $tekstipikkus - 1; $i >= 0; $i--){
+  echo $tekst[$i];
+ }
+
+?>

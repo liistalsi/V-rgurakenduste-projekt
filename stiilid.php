@@ -4,35 +4,45 @@
 
 	<?php 
 
-		$tekst = "See siin on näite tekst.";
+		session_start([
+			'cookie_lifetime' => 86400,
+		]);
+
+		$text = "See siin on näite tekst.";
 		$tekstivarv = "white";
 		$taustavarv = "black";
 		$suurus = "20";
 		$piirjoonevarv = "blue";
 		$piirjoonestiil = "dashed";
 
-		if (isset($_POST['tekst'])) {
+		if (isset($_POST['text'])) {
 			$text = htmlspecialchars($_POST['text']);
+			$_SESSION['text'] = $_POST['text'];
 		}
 
 		if (isset($_POST['tekstivarv'])) {
 			$tekstivarv = htmlspecialchars($_POST['tekstivarv']);
+			$_SESSION['tekstivarv'] = $_POST['tekstivarv'];
 		}
 
 		if (isset($_POST['taustavarv'])) {
 			$taustavarv = htmlspecialchars($_POST['taustavarv']);
+			$_SESSION['taustavarv'] = $_POST['taustavarv'];
 		}
 
 		if (isset($_POST['suurus'])) {
 			$suurus = htmlspecialchars($_POST['suurus']);
+			$_SESSION['suurus'] = $_POST['suurus'];
 		}
 
 		if (isset($_POST['piirjoonevarv'])) {
 			$piirjoonevarv = htmlspecialchars($_POST['piirjoonevarv']);
+			$_SESSION['piirjoonevarv'] = $_POST['piirjoonevarv'];
 		}
 
 		if (isset($_POST['piirjoonestiil'])) {
 			$piirjoonestiil = htmlspecialchars($_POST['piirjoonestiil']);
+			$_SESSION['piirjoonestiil'] = $_POST['piirjoonestiil'];
 		}
 
 	?>
@@ -73,14 +83,14 @@
 			height: 100px;
 			text-align: center;
 			margin-bottom: 20px;
-			background-color: <?php echo $taustavarv; ?>;
-			border-color: <?php echo $piirjoonevarv; ?>;
-			border-style: <?php echo $piirjoonestiil; ?>;
+			background-color: <?php echo $_SESSION['taustavarv']; ?>;
+			border-color: <?php echo $_SESSION['piirjoonevarv']; ?>;
+			border-style: <?php echo $_SESSION['piirjoonestiil']; ?>;			
 		}
 
 		p {
-			color: <?php echo $tekstivarv; ?>;
-			font-size: <?php echo $suurus; ?>px;
+			color: <?php echo $_SESSION['tekstivarv']; ?>;
+			font-size: <?php echo $_SESSION['suurus']; ?>px;
 		}
 
 		input {
@@ -94,69 +104,179 @@
 
 	<div>
 		<p>
-			<?php echo $tekst; ?>
+			<?php 
+
+				if (isset($_SESSION['text'])) {
+
+					echo $_SESSION['text'];
+				
+				} else {
+					echo $text; 
+				}
+
+			?>
 		</p>
 	</div>
 
 	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-		<textarea name="text"><?php echo $tekst ?></textarea>
+		<textarea name="text"><?php 
+
+				if (isset($_SESSION['text'])) {
+
+					echo $_SESSION['text'];
+				
+				} else {
+					echo $text; 
+				}
+
+			?></textarea>
 
 		<label>
 			Vali teksti värv:
 			<select name="tekstivarv">
-				<option selected value="white">Valge</option>
-				<option value="blue">Sinine</option>
-				<option value="red">Punane</option>
-				<option value="yellow">Kollane</option>
-				<option value="green">Roheline</option>
-				<option value="black">Must</option>
+
+				<?php
+
+					$valitudVarv = "";
+					$selected = "";
+					$varvid = ["white", "blue", "red", "yellow", "green", "black"];
+					$suurused = [10, 20, 30, 40, 50];
+					$borders = ["dashed", "solid", "double", "groove", "ridge", "outset"];
+
+					if (isset($_SESSION['tekstivarv'])) {
+
+						$valitudVarv = $_SESSION['tekstivarv'];
+					}
+
+					for ($i = 0; $i < count($varvid); $i++) { 
+
+						if ($valitudVarv == $varvid[$i]) {
+							
+							$selected = "selected";
+
+						} else {
+							$selected = "";
+						}
+
+						echo "<option " . $selected . " value=" . $varvid[$i] . ">" . $varvid[$i] . "</option>";
+					}
+
+				?>
+
 			</select>
 		</label>
 
 		<label>
 			Vali taustavärv:
 			<select name="taustavarv">
-				<option selected value="black">Must</option>
-				<option value="white">Valge</option>
-				<option value="blue">Sinine</option>
-				<option value="red">Punane</option>
-				<option value="yellow">Kollane</option>
-				<option value="green">Roheline</option>
+				<?php
+
+					if (isset($_SESSION['taustavarv'])) {
+
+						$valitudVarv = $_SESSION['taustavarv'];
+					}
+
+					for ($i = 0; $i < count($varvid); $i++) { 
+
+						if ($valitudVarv == $varvid[$i]) {
+							
+							$selected = "selected";
+
+						} else {
+							$selected = "";
+						}
+
+						echo "<option " . $selected . " value=" . $varvid[$i] . ">" . $varvid[$i] . "</option>";
+					}
+
+				?>
+
 			</select>
 		</label>
 
 		<label>
 			Vali teksti suurus:
 			<select name="suurus">
-				<option value="10">10 px</option>
-				<option selected value="20">20 px</option>
-				<option value="30">30 px</option>
-				<option value="40">40 px</option>
-				<option value="50">50 px</option>
+				<?php
+
+					if (isset($_SESSION['suurus'])) {
+
+						$valitudSuurus = $_SESSION['suurus'];
+					}
+
+					for ($i = 0; $i < count($suurused); $i++) { 
+
+						if ($valitudSuurus == $suurused[$i]) {
+							
+							$selected = "selected";
+
+						} else {
+							$selected = "";
+						}
+
+						echo "<option " . $selected . " value=" . $suurused[$i] . ">" . $suurused[$i] . " px</option>";
+					}
+
+				?>
 			</select>
 		</label>
 
 		<label>
 			Vali tausta piirjoone värvus:
 			<select name="piirjoonevarv">
-				<option value="black">Must</option>
-				<option value="white">Valge</option>
-				<option selected value="blue">Sinine</option>
-				<option value="red">Punane</option>
-				<option value="yellow">Kollane</option>
-				<option value="green">Roheline</option>
+				<?php
+
+					if (isset($_SESSION['piirjoonevarv'])) {
+
+						$valitudVarv = $_SESSION['piirjoonevarv'];
+					}
+
+					for ($i = 0; $i < count($varvid); $i++) { 
+
+						if ($valitudVarv == $varvid[$i]) {
+							
+							$selected = "selected";
+
+						} else {
+							$selected = "";
+						}
+
+						echo "<option " . $selected . " value=" . $varvid[$i] . ">" . $varvid[$i] . "</option>";
+					}
+
+				?>
+
 			</select>
 		</label>
+
+		
 
 		<label>
 			Vali tausta piirjoone stiil:
 			<select name="piirjoonestiil">
-				<option selected value="dashed">Dashed</option>
-				<option value="solid">Solid</option>
-				<option value="double">Double</option>
-				<option value="groove">Groove</option>
-				<option value="rodge">Ridge</option>
-				<option value="outset">Outset</option>
+
+				<?php
+
+					if (isset($_SESSION['piirjoonestiil'])) {
+
+						$valitudStiil = $_SESSION['piirjoonestiil'];
+					}
+
+					for ($i = 0; $i < count($borders); $i++) { 
+
+						if ($valitudStiil == $borders[$i]) {
+							
+							$selected = "selected";
+
+						} else {
+							$selected = "";
+						}
+
+						echo "<option " . $selected . " value=" . $borders[$i] . ">" . $borders[$i] . "</option>";
+					}
+
+				?>
+
 			</select>
 		</label>
 

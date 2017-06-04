@@ -1,0 +1,184 @@
+
+VÕRGURAKENDUSED
+
+Teiste projektide hinnangud - 4.06
+Eksam - 4.06
+
+
+
+
+FÜÜSIKA
+
+Eksam
+
+
+
+
+
+"Good Copy, Bad Copy"
+
+Vaatasin päris huvitavat Taani dokumentaalfilmi "Good Copy, Bad Copy", mis rääkis taaskord autoriõiguste teemadest, ent veidi omamoodi võtmes.
+Täpsemalt käsitleti filmis konflikti praeguse autoriõiguse seaduse ja hiljutiste tehnoloogiliste arengute vahel, mis võimaldavad autoriõigustega kaitstud materjali inimestel hõlpsasti omavahel jagada.
+Film teeb kiire tiiru ümber maailma, näidates vaatajatele kuidas erineb kunsti ja kultuuri suhtumine Nigeerias, Rootsis, Brasiilias, UKs ja USAs.
+Kui Ameerikas on piraatlus suureks probleemiks ning selle tõttu jääb muusikatööstusel igal aastal saamata miljardid dollarid, siis näiteks Nigeerias, peetakse seda halvaks tavaks ning keegi ei mõtlegi, et ta peaks kohaliku artisti loomingut illegaalselt kuulama. 
+Kuid välismaa artistide muusika ostmine turult illegaalselt, on ka seal täiesti aktsepteeritav. 
+
+Filmis toodi välja ka ThePirateBay skandaal, kus probleem tekkis sellest, et USA muusikatööstuse ning seaduse järgi oli leht ebaseaduslik, kuid Rootsi seaduste järgi, kus ka veebileht loodi,  on kõik seaduslik.
+
+Piraatlus ei saa toimida ilma tarbijateta, seega seni, kuni keegi neid teenuseid kasutab, ei kao piraatlus kuhugi.
+
+Kokkuvõtvalt leian, et film oli toredalt ja isegi kergelt humoorikalt üles ehitatud - lihtne vaadata ja kõigile arusaadav. Veidi andis tunda ka põhjamaine lähenemine, kus pausidel ja vaikuse momentidel oli tunda kandvat jõudu.. :)
+Film on hea võimalus kiireks ülevaateks piraatlusest üldiselt ja näitab, et piraatlus kui selline, ei olegi üldse üdini halb nähtus.
+
+
+
+
+answering statements about incentives and creativity by the MPAA and IFPI by showing us real artists (like Danger Mouse and Girl Talk) 
+making wonderful art that, according to the gangsters in the entertainment industry, no one will make without copyright.
+
+Vaatasin film Good Copy Bad Copy, mis räägib piraatlusest muusikatööstuses. 
+Film oli päris huvitav, näidates erinevate inimeste arvamust piraatlusest ning kuidas inimesed tegelikult sellesse suhtuvad. 
+Oli neid, kes pidasid seda üdini halvaks, kuid ka neid, kes suhtusid sellesse positiivselt.  Kuigi film on aastast 2007, kehtivad need probleemid ka tänapäeval.
+
+Kui Ameerikas on see suur probleem ning piraatluse tõttu jääb muusikatööstusel saamata miljardid dollari iga aasta, siis näiteks Nigeerias, peetakse halvaks tavaks ning keegi ei mõtlegi, et ta peaks kohaliku artisti loomingut illegaalselt kuulama. 
+Kuid välismaa artistide muusika ostmine turult illegaalselt, on täiesti aktsepteeritav. 
+Film näitas ka inimest Brasiiliast, kes kohandas populaarse laulu nende riigis populaarsele kujule. 
+Filmis sai näha ka kuulsat häkkismislehte Pirate Bay. 
+Probleem tekkis sellest, et USA muusikatööstuse ning seaduse järgi oli leht ebaseaduslik, kuid Rootsi seaduste järgi, kus ka veebileht loodi,  on kõik seaduslik.
+
+Minu arvates, oli film väga ning soovitan seda kõigile.  
+See annab kerge ülevaate piraatlusest ning näitab, et kõik seotud piraatlusega pole üdini halb. 
+Miinuseks tooksin seda, et filmis oleks võinud olla natukene rohkem seaduslikku poolt. Mida tähendab üldse häkkimine? 
+Kust maalt hakkab ebaseadusliku käitumise piir ning mis on selle tagajärjed. Üks asi on kindel tasuta asjadega ei saa me ühiskonnas konkureerida. 
+Ainuke võimalus meedia illegaalset jagamist peatada, on panna inimesi muutma oma uskumusi. 
+Muuta traditsioone, sest kui keegi ei taha omale uut muusikat ebaseaduslikult allalaadida, vaid poest plaadi osta, siis ta seda ka ei tee. 
+Piraatlus ei saa toimida ilma tarbijateta ning seni kaua, kuni keegi neid teenuseid kasutab, ei kao piraatlus kuhugile.
+
+Innovatsioon on minu meelest päris lai mõiste ja üldiselt ei ole innovatsiooni ja tööhõive vahelised seosed päris üheselt määratletud. On küll mitmeid võimalusi, kuidas eri liiki innovatsioonid võivad luua uusi ja kaotada olemasolevaid töökohti. 
+Erinevad käsitlused innovatsioonide ja tööjõu hulga vaheliste seoste kohta on näidanud, et protsessiinnovatsioonide rakendamisega kaasneb üldjuhul siiki tööjõu hulga vähenemine ettevõttes, kuid tooteinnovatsioonide loomise järgselt aga just suureneb vajadus eelkõige
+oskusliku tööjõu järele. Seega, olen ma eelkõnelejatega nõus ja leian, et igasugune innovatsioon on siiski teretulnud nähtus, mis võimaldab meil edasi areneda.
+
+
+1. Proper staf?ng.
+2. Proper organization structure.
+3. Communication excellence and proper tooling.
+4. Right software architecture and technology
+
+One of the most important aspects is the team.
+It is very important that the team members understand what the company goals and the team goals are 
+and they find meaning and value in their daily job and comprehend how it fits into the bigger picture.
+
+The feeling of being part of a team is not to be underestimated. 
+The team creates short-and long-term values of the project.
+The team is highly motivated to develop their skills. 
+The team understands how to effectively achieve the objectives of the project.
+
+better communication andlanguage skills than the average in other projects. 
+Team members in total should have broad technical and business domain knowledge to be able to address different issues. 
+
+Product Owner Proxy. In principle, this role is ?lled by a business architect fullyexperienced in the domain. 
+This role is to support the client and the team only inthe speci?c area of knowledge; 
+other tasks of the Product Owner, such as prod-uct backlog prioritization, release planning, and whether to accept or reject workresults, are not supported by the Product Owner Proxy role.
+
+Team organization. Another important element is the organization of a team -especially at the beginning of the project. 
+We want to avoid a situation, where despite the right people and tools, the projects are not able to deliver businessvalue, due to organizational problems. 
+We present two organizational patterns, which are used as a base for new projects. 
+These models are designed to facilitate the start of the project, particularly if the team does not have experience in agilemethodologies.
+
+Tooling is important. Obviously, the process comes ?rst, people change, culture, team etc. 
+But often many things get large, they get complex, they get distributed. 
+Tooling becomes essential. When it comes to communication and cooperation, people typically work on complex tasks, which makes using tools essen-tial [AL12]. 
+So I will mainly focus on investing in tools that help people collaborate.
+
+Backlog, which is an ordered list of functionalities. Of course, Backlog is
+shared not only for readout, but it is above all a platform for distributed management
+of requirements. This is a continuing activity, in which the Development
+Team and Product Owner work together on the details of user stories
+[SS13, pp. 12-13].
+
+— Board (Scrum/Kanban), involves a fast visualization of the current work progress.
+The shared board shows the scope of work [KS10], which is interesting at the
+moment. Development Team (s) can better synchronize their work every day,
+guided by what the Board shows. It is also part of the system to respond to
+change, because this Board shows the limitations of the team.
+
+— Wiki is something more than a static page with information or a project encyclopedia.
+Design Wiki is a platform for shared knowledge management as well as communication. 
+Each member of the Development Team is invited to participate in its creation, no matter where they are and regardless of their time
+zone!
+
+- Shared ownership from the start. An often erroneous assumptions is to build
+a strong team on the client side, and then creating a remote location. The best
+solution is the parallel development of teams or creating a team in a remote
+location on the basis of experienced team members, who previously worked
+onsite. They would provide knowledge to new people [CH04, p. 88 - 91].
+
+— Decide architecture together. A vision of architecture is very important, and
+even in XP methodology its need is acknowledged [Bec00, p. 113]. The
+process of creating the system architecture should involve team members from
+all locations.
+
+— Get to know the client and domain. A common problem due to the location is
+the lack of understanding of the domain and customer needs by team members.
+Domain knowledge is one of the most distinguishing factors supporting sound
+design decisions [CB10, p. 85]. It is good to ensure that the team has domain
+expertise and access to domain experts. Not enough context information
+off-site will lead to communication and development issues.
+
+— Form personal relationship. Team members should know one another personally,
+especially since it is easier to overcome barriers formed in the case of
+remote communication.
+
+— Avoid local team taking aggressive ownership. The onsite team, which has
+direct access to knowledge and the client would often take quick decisions on
+the basis of additional meetings organized adhoc. To avoid isolating the team
+working remotely, it is recommended to engage selected developers to regular
+meetings via video-conference.
+
+
+As a friend, Triin is a very warm and kindhearted person and I truly believe that she is also very passionate and hardworking manager.
+She does very good job managing all our processes and workflows, but I don’t think she’s doing as good job wih her direct reports.
+I think she is very strong minded and professional, but she sometimes tends to treat other people in a way that can easily be interprated as a bit rude and disrespectful.
+I believe she could definitely improve her communication skills, to make sure that people understand her better and wouldn't feel disrespected.
+
+Overall, as for most positions, people aren't born professionals, they grow into one. And I have seen Triin grow into her manager position quite well. 
+There are areas that could use some improvements for the team well being on both sides, however there is a lot of potential for our team to learn from our mistakes, support each other, grow together and become even stronger!
+
+
+
+
+
+If she makes up her mind about a certain matter, she sticks to it no matter what and protects her view as the only correct one available.
+She also has a tendency to categorize people, which can result with some people having the need to constantly prove her their worthiness. 
+
+
+
+
+
+I think she could definitely improve her communication skills, she tends to think that everyone around her are at the same page with her, but that is often not the case.
+Another thing that can come out disrespectfully towards others, is her sudden loss of interest. 
+She sometimes asks me (or someone else) something and while being in the middle of an answer it is visible that her attention is moving elsewhere and understand that she is not listening at all.
+
+
+
+
+
+
+
+ "Loo lihtne kommentaaride lisamise vorm. Andmed salvesta andmebaasi. Kuva salvestaud kommentaare.",
+
+
+Name: <input type="text" name="name" value="<?php echo $name;?>">
+
+E-mail: <input type="text" name="email" value="<?php echo $email;?>">
+
+Website: <input type="text" name="website" value="<?php echo $website;?>">
+
+Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+
+
+
+
+
+
+

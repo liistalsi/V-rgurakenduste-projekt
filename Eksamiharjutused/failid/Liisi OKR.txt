@@ -1,0 +1,26 @@
+
+Eksperimenteerimine - OneNote 
+Bot - Customer voice - Aigars - Feedback bot
+
+
+
+Mis kasu?
+Kuidas saada kasutajateni?
+
+Kokkuvõte - Juuni lõpus 
+
+From July forward - when most of my current projects will "sunset" and Pactera will be capable of owning the E2E localization process for the remaining ones, I
+will concentrate mainly on 2 areas - Experimentation and Bot framework.
+
+Experimentation
+
+As this is totally new area for me, I would first need to study carefully all the background information that is already available on this topic.
+After getting more familiar with the matter, I would like to investigate the areas where we as a team could benefit using Experimentation framework.
+Similarly to what has already been mentioned in the detailed documentation - I would focus mainly on local user experience.
+
+Bot framework
+
+I have gradually started with my Bot studies beside Aigars already from this quarter. 
+So far we have been focused on SkypeLocFeedbackBot, which is almost ready to release its vol.1, however I am certain there are some functionality improvements available
+The topic itself is much wider than the rest and I'd definitely need more time
+to focus on this to get better understanding of how it all works (from more technical point of view). 
